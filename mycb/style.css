@@ -1,0 +1,101 @@
+header{
+    background-color:blue;
+    color: white;
+    text-align:left;
+    a{
+        color:white;
+        margin: 2px;
+        font-family: Arial,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica;
+        font-size: 15px;
+    }
+    p{
+font-size: 20px;
+    };
+    h2{
+color : white;
+    }
+    
+}
+
+nav{
+    display :flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+/* #pic
+{
+    
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: url("/my.jpg");
+    background-size: cover;
+} */
+
+table
+{
+border : 2px solid blue;
+width:100%;
+border-spacing : 2px;
+border-collapse: collapse;
+
+}
+main{
+thead{
+    font-size: 18px;
+    padding: 4px;
+    background-color: palevioletred;
+    color:whitesmoke;
+}
+}
+td{
+    text-align: center;
+    display: table-cell;
+    padding: 10px;
+    font-size: 15 px;
+}
+
+ul{
+    align-items: center;
+    color:white;
+}
+
+
+
+li{
+    list-style: none;
+    display: inline;
+    color: white;
+
+}
+main{
+    h2{
+        color:#820300;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+a{
+    text-decoration: none;
+    color :blue;
+    text-align: center;
+}
+footer{
+    h3{
+color :#820300;
+    }
+    /* background-color:violet; */
+    text-align: center;
+}
+#name
+{
+    border : 1px solid none;
+    text-align: center;
+    width: 500px;
+}
+#pic
+{
+    border-radius: 50%;
+    background-size: cover;
+
+}
